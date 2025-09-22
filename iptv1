@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="" tvg-name="4 Fun TV (288p) [Not 24/7]",4 Fun TV (288p) [Not 24/7]
+#EXTINF:-1 tvg-id="4 fun TV" tvg-name="4 Fun TV (288p) [Not 24/7]",4 Fun TV (288p) [Not 24/7]
 https://stream.4fun.tv:8888/hls/4f.m3u8
 #EXTINF:-1 tvg-id="BBC.ALBA.HD.uk" tvg-name="BBC ALBA HD",BBC Alba (1080p) [Geo-blocked]
 https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_alba/iptv_mse_v0_hevc.mpd
