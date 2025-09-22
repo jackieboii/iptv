@@ -11,70 +11,16 @@ https://vs-cmaf-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_c
 https://d2vnbkvjbims7j.cloudfront.net/containerA/LTN/playlist.m3u8
 #EXTINF:-1 tvg-id="BBC.NEWS.HD.uk" tvg-name="BBC NEWS HD",BBC News Europe
 https://viamotionhsi.netplus.ch/live/eds/bbcworld/browser-HLS8/bbcworld.m3u8
-#EXTINF:-1 tvg-id="BBCOneChannelIslands.uk" tvg-name="BBC One CI HD",BBC One (720p)
+#EXTINF:-1 tvg-id="BBC.One.ch" tvg-name="BBC One CI HD",BBC One (720p)
 https://november.queazified.co.uk/ee971134-115e-4418-8d1d-69dff7d4c6eb.m3u8
-#EXTINF:-1,BBC One Channel Islands (1080p) [Geo-blocked]
-https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_channel_islands/iptv_mse_v0_hevc.mpd
-#EXTINF:-1 tvg-id="BBCOneEast.uk" tvg-name="BBC One East HD",BBC One East (1080p)
-https://xyzdddd.mizhls.ru/lb/premium356/index.m3u8
-#EXTINF:-1 tvg-id="BBCOneEast.uk" tvg-name="BBC One East HD",BBC One East (720p) [Geo-blocked]
-https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_east_yorkshire/pc_hd_abr_v2.mpd
-#EXTINF:-1 tvg-id="BBCOneEastMidlands.uk" tvg-name="BBC One East Midlands HD",BBC One East Midlands (720p) [Geo-blocked]
-https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_east_midlands/pc_hd_abr_v2.mpd
-#EXTINF:-1 tvg-id="BBCOneEastMidlands.uk" tvg-name="BBC One East Midlands HD",BBC One East Midlands (1080p) [Geo-blocked]
-https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_east_midlands/iptv_mse_v0_hevc.mpd
-#EXTINF:-1 tvg-id="BBCOneEast.uk" tvg-name="BBC One East HD",BBC One East Yorkshire (540p) [Geo-blocked]
-https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_east_yorkshire/pc_hd_abr_v2.m3u8
-#EXTINF:-1 tvg-id="BBCOneNorthEastCumbria.uk" tvg-name="BBC One North East HD",BBC One North East (720p) [Geo-blocked]
-https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_north_east/pc_hd_abr_v2.mpd
-#EXTINF:-1 tvg-id="BBCOneNorthEastCumbria.uk" tvg-name="BBC One North East HD",BBC One North East (1080p) [Geo-blocked]
-https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_north_east/iptv_mse_v0_hevc.mpd
-#EXTINF:-1 tvg-id="BBCOneNorthWest.uk" tvg-name="BBC One North West HD",BBC One North West (720p) [Geo-blocked]
-https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_north_west/pc_hd_abr_v2.mpd
-#EXTINF:-1 tvg-id="BBCOneNorthWest.uk" tvg-name="BBC One North West HD",BBC One North West (1080p) [Geo-blocked]
-https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_north_west/iptv_mse_v0_hevc.mpd
-#EXTINF:-1,BBC One Northern Ireland HD (720p) [Geo-blocked]
-https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_northern_ireland_hd/pc_hd_abr_v2.mpd
-#EXTINF:-1,BBC One Northern Ireland HD (1080p) [Geo-blocked]
-https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_northern_ireland_hd/iptv_mse_v0_hevc.mpd
-#EXTINF:-1 tvg-id="BBCOneScotHD.uk" tvg-name="BBC One Scotland HD",BBC One Scotland (540p) [Geo-blocked]
-https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_scotland_hd/pc_hd_abr_v2.m3u8
-#EXTINF:-1 tvg-id="BBCOneScotHD.uk" tvg-name="BBC One Scotland HD",BBC One Scotland HD (1080p) [Geo-blocked]
-https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_scotland_hd/iptv_mse_v0_hevc.mpd
-#EXTINF:-1 tvg-id="BBCOneSouth.uk" tvg-name="BBC One South HD",BBC One South (1080p) [Geo-blocked]
-https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_south/iptv_mse_v0_hevc.mpd
-#EXTINF:-1 tvg-id="BBCOneSouthEast.uk" tvg-name="BBC One South East HD",BBC One South East (1080p) [Geo-blocked]
-https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_south_east/iptv_mse_v0_hevc.mpd
-#EXTINF:-1 tvg-id="BBCOneSouthWest.uk" tvg-name="BBC One South West HD",BBC One South West (1080p) [Geo-blocked]
-https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_south_west/iptv_mse_v0_hevc.mpd
-#EXTINF:-1 tvg-id="BBCOneSouthWest.uk" tvg-name="BBC One South West HD",BBC One South West HD (720p)
-https://stream.nexyl.uk/ee971134-115e-4418-8d1d-69dff7d4c6eb.m3u8
-#EXTINF:-1 tvg-id="BBCOneWalesHD.uk" tvg-name="BBC One Wales HD",BBC One Wales (1080p) [Geo-blocked]
-https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_wales_hd/iptv_mse_v0_hevc.mpd
-#EXTINF:-1 tvg-id="BBCOneWest.uk" tvg-name="BBC One West HD",BBC One West (1080p) [Geo-blocked]
-https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_west/iptv_mse_v0_hevc.mpd
-#EXTINF:-1 tvg-id="BBCOneWestMidlands.uk" tvg-name="BBC One West Midlands HD",BBC One West Midlands (1080p) [Geo-blocked]
-https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_west_midlands/iptv_mse_v0_hevc.mpd
-#EXTINF:-1 tvg-id="BBCOneYorkshire.uk" tvg-name="BBC One Yorkshire HD",BBC One Yorkshire & Lincolnshire (1080p)
-http://92.114.85.72:8000/play/a0mp
-#EXTINF:-1 tvg-id="BBCParliament.uk" tvg-name="BBC Parliament HD",BBC Parliament (1080p) [Geo-blocked]
-https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_parliament/iptv_mse_v0_hevc.mpd
-#EXTINF:-1 tvg-id="BBCScotland.uk" tvg-name="BBC Scotland HD",BBC Scotland (1080p)
-http://92.114.85.72:8000/play/a0mf
-#EXTINF:-1 tvg-id="BBCThreeHD.uk" tvg-name="BBC Three HD",BBC Three
+#EXTINF:-1 tvg-id="BBC.Three.ch" tvg-name="BBC Three HD",BBC Three
 https://x.canlitvapp.com/u-bbc3/index.m3u8
-#EXTINF:-1 tvg-id="BBCThreeHD.uk" tvg-name="BBC Three HD",BBC Three HD (720p)
+#EXTINF:-1 tvg-id="BBC.Three.ch" tvg-name="BBC Three HD",BBC Three HD (720p)
 https://streamer.nexyl.uk/39290a19-b8dd-43ea-b8dc-081c37790f24.m3u8
-#EXTINF:-1 tvg-id="BBCTwoHD.uk" tvg-name="BBC Two HD",BBC Two
+#EXTINF:-1 tvg-id="BBC.Two.ch" tvg-name="BBC Two HD",BBC Two
 https://live20.bozztv.com/dvrfl06/astv/astv-bbctwo/index.m3u8
-#EXTINF:-1 tvg-id="BBCTwoHD.uk" tvg-name="BBC Two HD",BBC Two HD (720p)
+#EXTINF:-1 tvg-id="BBC.Two.ch" tvg-name="BBC Two HD",BBC Two HD (720p)
 https://streamer.nexyl.uk/69ef899e-8ca9-4537-9f1a-fe8b4216afbb.m3u8
-#EXTINF:-1,BBC Two Northern Ireland (540p) [Geo-blocked]
-https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_two_northern_ireland_hd/pc_hd_abr_v2.m3u8
-#EXTINF:-1,BBC Two Northern Ireland HD (1080p) [Geo-blocked]
-https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_two_northern_ireland_hd/iptv_mse_v0_hevc.mpd
-#EXTINF:-1 tvg-id="BBCTwoWales.uk" tvg-name="BBC Two Wales HD",BBC Two Wales (1080p) [Geo-blocked]
-https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_two_wales_digital/iptv_mse_v0_hevc.mpd
 #EXTINF:-1 tvg-id="CBBC.HD.uk" tvg-name="CBBC",CBBC HD (1080p) [Geo-blocked]
 https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbbc_hd/iptv_mse_v0_hevc.mpd
 #EXTINF:-1 tvg-id="CBeebies.HD.uk" tvg-name="CBeebies",CBeebies
@@ -109,6 +55,66 @@ https://viamotionhsi.netplus.ch/live/eds/itv3/browser-HLS8/itv3.m3u8
 https://viamotionhsi.netplus.ch/live/eds/itv4/browser-HLS8/itv4.m3u8
 #EXTINF:-1 tvg-id="More4+1.uk" tvg-name="More4 HD",More4 HD
 https://viamotionhsi.netplus.ch/live/eds/more4/browser-HLS8/more4.m3u8
+#EXTINF:-1 tvg-id="NickJr.au" tvg-name="Nick Jr. Pluto TV",Nick Jr. Pluto TV
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5ca6748a37b88b269472dad9/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a5106-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=d95e31ff-c65d-438c-9466-ddbbd097b4cf
+#EXTINF:-1 tvg-id="NickJr.au" tvg-name="Nick Jr. Pluto TV",Nick Jr. Pluto TV
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62bdb75c3afd1200079146a6/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7b3f07-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=08e1ba5b-febb-444b-927d-f017f608e57e
+#EXTINF:-1 tvg-id="Nickelodeon.at" tvg-name="Nickelodeon",Nickelodeon
+http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
+#EXTINF:-1 tvg-id="Nickelodeon.at" tvg-name="Nickelodeon Pluto TV",Nickelodeon Pluto TV
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5ca673e0d0bd6c2689c94ce3/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a5108-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=5730720c-9e54-41d9-b73d-eab8fdac7291
+#EXTINF:-1 tvg-id="Nicktoons.at" tvg-name="NickToons",NickToons
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/654ca7f92c1d3300086b608c/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7b6610-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=359ee837-a829-4fe0-9d99-8dc36018ced2
+#EXTINF:-1 tvg-id="POP.uk" tvg-name="Pop",Pop (1080p)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01753-narrativeentert-popkids-lggb/playlist.m3u8
+#EXTINF:-1,POP World TV (720p)
+https://janus.xpbroadcasting.com:8443/hls/popworld.m3u8
+#EXTINF:-1,Quest TV (240p) [Not 24/7]
+https://media2.streambrothers.com:19360/8028/8028.m3u8
+#EXTINF:-1 tvg-id="SkyNewsUK.au" tvg-name="Sky News HD",Sky News
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/55b285cd2665de274553d66f/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2bb092-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=7161f04a-ca8e-48a5-ba86-50e1f09b73b7
+#EXTINF:-1 tvg-id=""tvg-name="Sky News Extra 1",Sky News Extra 1
+https://skynewsau-live.akamaized.net/hls/live/2002689/skynewsau-extra1/master.m3u8
+#EXTINF:-1,Sky News Extra 2 (540p) [Not 24/7]
+https://skynewsau-live.akamaized.net/hls/live/2002690/skynewsau-extra2/master.m3u8
+#EXTINF:-1,Sky News Extra 3 (1080p)
+https://skynewsau-live.akamaized.net/hls/live/2002691/skynewsau-extra3/master.m3u8
+#EXTINF:-1 tvg-id="SkyNews.uk" tvg-name="Sky News HD",Sky News Weather (720p)
+https://distro001-gb-hls1-prd.delivery.skycdp.com/easel_cdn/ngrp:weather_loop.stream_all/playlist.m3u8
+#EXTINF:-1,STV (720p)
+http://89.201.163.244:8080/hls/hdmi.m3u8
+#EXTINF:-1,STV City
+http://61.173.144.157:9901/tsfile/live/1001_1.m3u8?authid=0&key=txiptv&playlive=1
+#EXTINF:-1,STV News and General
+http://61.173.144.157:9901/tsfile/live/1000_1.m3u8?authid=0&key=txiptv&playlive=1
+#EXTINF:-1 tvg-id="TG4.ie" tvg-name="TG4 HD",TG4 (1080p)
+https://dx4452e0qv6r9.cloudfront.net/tg4_vod_national.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Tiny Pop (1080p)",Tiny Pop (1080p)
+https://amg01753-narrativeuk-amg01753c1-lg-gb-1830.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-tinypop-lggb/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Tiny Pop +1 (576p)",Tiny Pop +1 (576p)
+http://92.114.85.72:8000/play/a08p
+#EXTINF:-1 tvg-id="TrueCrimeNow.au" tvg-name="True Crime",True Crime Network
+https://dvrfl03.bozztv.com/hdirect/hdirect-ovair1-truecrimenetwork/index.m3u8
+#EXTINF:-1 tvg-id="TrueCrimeNow.au" tvg-name="True Crime",True Crime Network+ (1080p) [Geo-blocked]
+https://amg00979-amg00979c1-firetv-us-3622.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TrueCrimeNow.au" tvg-name="True Crime",True Crime Now (1080p)
+https://amg00376-magellan-amg00376c9-rakuten-uk-1941.playouts.now.amagi.tv/playlist/amg00376-magellantv-truecrimenowcauk-rakutenuk/playlist.m3u8
+#EXTINF:-1 tvg-id="TrueCrimeNow.au" tvg-name="True Crime",True Crime Now (1080p)
+https://amg00376-magellan-amg00376c11-rakuten-us-1700.playouts.now.amagi.tv/playlist/amg00376-magellantv-truecrimenowww-rakutenus/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="U&Alibi (576p)",U&Alibi (576p)
+http://92.114.85.72:8000/play/a0bi
+#EXTINF:-1 tvg-id="" tvg-name="U&W",U&W
+http://92.114.85.72:8000/play/a0bj
+#EXTINF:-1 tvg-id="Yesterday.ch" tvg-name="U&Yesterday",U&Yesterday
+http://92.114.85.72:8000/play/aOb3
+#EXTINF:-1 tvg-id="UTV.uk" tvg-name="UTV",UTV (720p)
+https://v2.tustreaming.cl/utv/index.m3u8
+#EXTINF:-1 tvg-id="UTV.uk" tvg-name="UTV",UTV (1080p)
+https://mn-nl.mncdn.com/utviraqi2/64c80359/index.m3u8
+#EXTINF:-1 tvg-id="UTV.uk" tvg-name="UTV",UTV (240p) [Not 24/7]
+https://goliveafrica.media:9998/live/62580d78ac508/index.m3u8
+#EXTINF:-1 tvg-id="4 fun TV" tvg-name="4 Fun TV (288p) [Not 24/7]",4 Fun TV
+https://stream.4fun.tv:8888/hls/4f.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="MTV (1080p)",MTV (1080p)
 https://hms.pfs.gdn/v1/broadcast/mtv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="MTV Biggest Pop",MTV Biggest Pop
@@ -213,63 +219,3 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f98471110cca20007d39f76/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84ae2b53-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=81574af2-8af4-46c8-8d63-00cbea99cbf5
 #EXTINF:-1 tvg-id="" tvg-name="MTV Uutiset (720p)",MTV Uutiset (720p)
 https://live.streaming.a2d.tv/asset/20025962.isml/.m3u8
-#EXTINF:-1 tvg-id="NickJr.au" tvg-name="Nick Jr. Pluto TV",Nick Jr. Pluto TV
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5ca6748a37b88b269472dad9/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a5106-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=d95e31ff-c65d-438c-9466-ddbbd097b4cf
-#EXTINF:-1 tvg-id="NickJr.au" tvg-name="Nick Jr. Pluto TV",Nick Jr. Pluto TV
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62bdb75c3afd1200079146a6/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7b3f07-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=08e1ba5b-febb-444b-927d-f017f608e57e
-#EXTINF:-1 tvg-id="Nickelodeon.HD.at" tvg-name="Nickelodeon",Nickelodeon
-http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
-#EXTINF:-1 tvg-id="Nickelodeon.HD.at" tvg-name="Nickelodeon Pluto TV",Nickelodeon Pluto TV
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5ca673e0d0bd6c2689c94ce3/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a5108-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=5730720c-9e54-41d9-b73d-eab8fdac7291
-#EXTINF:-1 tvg-id="Nicktoons.at" tvg-name="NickToons",NickToons
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/654ca7f92c1d3300086b608c/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7b6610-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=359ee837-a829-4fe0-9d99-8dc36018ced2
-#EXTINF:-1 tvg-id="POP.uk" tvg-name="Pop",Pop (1080p)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01753-narrativeentert-popkids-lggb/playlist.m3u8
-#EXTINF:-1,POP World TV (720p)
-https://janus.xpbroadcasting.com:8443/hls/popworld.m3u8
-#EXTINF:-1,Quest TV (240p) [Not 24/7]
-https://media2.streambrothers.com:19360/8028/8028.m3u8
-#EXTINF:-1,Sheffield Live TV (360p) [Not 24/7]
-http://tv.sheffieldlive.org/hls/main.m3u8
-#EXTINF:-1 tvg-id="SkyNews.uk" tvg-name="Sky News HD",Sky News
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/55b285cd2665de274553d66f/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2bb092-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=7161f04a-ca8e-48a5-ba86-50e1f09b73b7
-#EXTINF:-1,Sky News Extra 1 (540p)
-https://skynewsau-live.akamaized.net/hls/live/2002689/skynewsau-extra1/master.m3u8
-#EXTINF:-1,Sky News Extra 2 (540p) [Not 24/7]
-https://skynewsau-live.akamaized.net/hls/live/2002690/skynewsau-extra2/master.m3u8
-#EXTINF:-1,Sky News Extra 3 (1080p)
-https://skynewsau-live.akamaized.net/hls/live/2002691/skynewsau-extra3/master.m3u8
-#EXTINF:-1 tvg-id="SkyNews.uk" tvg-name="Sky News HD",Sky News Weather (720p)
-https://distro001-gb-hls1-prd.delivery.skycdp.com/easel_cdn/ngrp:weather_loop.stream_all/playlist.m3u8
-#EXTINF:-1,STV (720p)
-http://89.201.163.244:8080/hls/hdmi.m3u8
-#EXTINF:-1,STV City
-http://61.173.144.157:9901/tsfile/live/1001_1.m3u8?authid=0&key=txiptv&playlive=1
-#EXTINF:-1,STV News and General
-http://61.173.144.157:9901/tsfile/live/1000_1.m3u8?authid=0&key=txiptv&playlive=1
-#EXTINF:-1 tvg-id="TG4.ie" tvg-name="TG4 HD",TG4 (1080p)
-https://dx4452e0qv6r9.cloudfront.net/tg4_vod_national.m3u8
-#EXTINF:-1,Tiny Pop (1080p)
-https://amg01753-narrativeuk-amg01753c1-lg-gb-1830.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-tinypop-lggb/playlist.m3u8
-#EXTINF:-1,Tiny Pop +1 (576p)
-http://92.114.85.72:8000/play/a08p
-#EXTINF:-1 tvg-id="TrueCrime.uk" tvg-name="True Crime",True Crime Network
-https://dvrfl03.bozztv.com/hdirect/hdirect-ovair1-truecrimenetwork/index.m3u8
-#EXTINF:-1 tvg-id="TrueCrime.uk" tvg-name="True Crime",True Crime Network+ (1080p) [Geo-blocked]
-https://amg00979-amg00979c1-firetv-us-3622.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="TrueCrime.uk" tvg-name="True Crime",True Crime Now (1080p)
-https://amg00376-magellan-amg00376c9-rakuten-uk-1941.playouts.now.amagi.tv/playlist/amg00376-magellantv-truecrimenowcauk-rakutenuk/playlist.m3u8
-#EXTINF:-1 tvg-id="TrueCrime.uk" tvg-name="True Crime",True Crime Now (1080p)
-https://amg00376-magellan-amg00376c11-rakuten-us-1700.playouts.now.amagi.tv/playlist/amg00376-magellantv-truecrimenowww-rakutenus/playlist.m3u8
-#EXTINF:-1,U&Alibi (576p)
-http://92.114.85.72:8000/play/a0bi
-#EXTINF:-1,U&W
-http://92.114.85.72:8000/play/a0bj
-#EXTINF:-1,U&Yesterday
-http://92.114.85.72:8000/play/aOb3
-#EXTINF:-1 tvg-id="UTV.uk" tvg-name="UTV",UTV (720p)
-https://v2.tustreaming.cl/utv/index.m3u8
-#EXTINF:-1 tvg-id="UTV.uk" tvg-name="UTV",UTV (1080p)
-https://mn-nl.mncdn.com/utviraqi2/64c80359/index.m3u8
-#EXTINF:-1 tvg-id="UTV.uk" tvg-name="UTV",UTV (240p) [Not 24/7]
-https://goliveafrica.media:9998/live/62580d78ac508/index.m3u8
