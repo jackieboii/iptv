@@ -46,7 +46,7 @@ https://viamotionhsi.netplus.ch/live/eds/more4/browser-HLS8/more4.m3u8
 #EXTINF:-1 tvg-id="CBeebies.HD.uk" tvg-name="CBeebies" group-title="Kids",CBeebies
 https://x.canlitvapp.com/u-cbeebies/index.m3u8
 #EXTINF:-1 tvg-id="Cartoon.Netwrk.uk" tvg-name="Cartoon Network" group-title="Kids",Cartoon Network
-https://tv.ddns.vn/tv/cartoonhd/index.m3u8
+https://rhine.webchnl.live/memfs/55263779-40ab-45c9-ac64-636ff0963419.m3u8
 #EXTINF:-1 tvg-id="Nick.Jr..HD.uk" tvg-name="Nick Jr. Pluto TV" group-title="Kids",Nick Jr. Pluto TV
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5ca6748a37b88b269472dad9/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a5106-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=d95e31ff-c65d-438c-9466-ddbbd097b4cf
 #EXTINF:-1 tvg-id="Nick.Jr..HD.uk" tvg-name="Nick Jr. Pluto TV" group-title="Kids",Nick Jr. Pluto TV
