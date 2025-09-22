@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="" tvg-name="Superman" group-title="Movies",Superman
+https://queenselti.me/6e3ae078-0c0c-4cd7-aa66-76b72298ff66/f_0/uwu.m3u8
 #EXTINF:-1 tvg-id="BBC.ALBA.HD.uk" tvg-name="BBC ALBA HD" group-title="News",BBC Alba (1080p) [Geo-blocked]
 https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_alba/iptv_mse_v0_hevc.mpd
 #EXTINF:-1 tvg-id="BBC.Four.HD.uk" tvg-name="BBC Four HD" group-title="News",BBC Four (540p) [Geo-blocked]
