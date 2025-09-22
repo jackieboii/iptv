@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="BBC.One.CI.HD.uk" tvg-name="BBC One CI HD" group-title="News",BBC One
+#EXTINF:-1 tvg-id="BBC.One.EastHD.uk" tvg-name="BBC One CI HD" group-title="News",BBC One
 https://november.queazified.co.uk/ee971134-115e-4418-8d1d-69dff7d4c6eb.m3u8
 #EXTINF:-1 tvg-id="BBC.Two.HD.uk" tvg-name="BBC Two HD" group-title="News",BBC Two
 https://live20.bozztv.com/dvrfl06/astv/astv-bbctwo/index.m3u8
@@ -69,7 +69,7 @@ http://92.114.85.72:8000/play/a08p
 https://vs-cmaf-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/iptv_mse_v0_hevc.mpd
 #EXTINF:-1 tvg-id="BBC.NEWS.HD.uk" tvg-name="BBC NEWS HD" group-title="News",BBC News Europe
 https://viamotionhsi.netplus.ch/live/eds/bbcworld/browser-HLS8/bbcworld.m3u8
-#EXTINF:-1 tvg-id="CNBC.uk" tvg-name="CNBC Europe HD" group-title="News",CNBC Europe HD
+#EXTINF:-1 tvg-id="CNBC.HD.uk" tvg-name="CNBC Europe HD" group-title="News",CNBC Europe HD
 https://viamotionhsi.netplus.ch/live/eds/cnbc/browser-HLS8/cnbc.m3u8
 #EXTINF:-1 tvg-id="Sky.News.HD.uk" tvg-name="Sky News HD" group-title="News",Sky News
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/55b285cd2665de274553d66f/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2bb092-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=7161f04a-ca8e-48a5-ba86-50e1f09b73b7
