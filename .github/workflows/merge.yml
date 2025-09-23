@@ -26,9 +26,9 @@ jobs:
       - name: Merge EPG feeds
         env:
           # 🔧 Put YOUR EPG URLs here (add more if needed)
-          EPG1: https://example.com/epg1.xml.gz
-          EPG2: https://example.com/epg2.xml
-          EPG3: https://example.com/epg3.xml.gz
+          EPG1: https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz
+          EPG2: https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz
+          
         run: |
           mkdir -p public
           # Merge as many inputs as you like (list your preferred source first)
