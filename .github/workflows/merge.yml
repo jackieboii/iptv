@@ -1,0 +1,51 @@
+name: Build merged EPG
+on:
+  schedule:
+    - cron: "0 */12 * * *"     # every 12 hours (UTC) — change as you like
+  workflow_dispatch: {}         # lets you run it manually
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Merge EPG feeds
+        env:
+          # 🔧 Put YOUR EPG URLs here (add more if needed)
+          EPG1: https://example.com/epg1.xml.gz
+          EPG2: https://example.com/epg2.xml
+          EPG3: https://example.com/epg3.xml.gz
+        run: |
+          mkdir -p public
+          # Merge as many inputs as you like (list your preferred source first)
+          python xmltv_merge.py "$EPG1" "$EPG2" "$EPG3" -o public/merged.xml.gz
+
+      # (optional) also publish your playlist under the same Pages URL:
+      - name: Copy playlist to public
+        run: |
+          # adjust the source path/filename if yours is different
+          cp iptv1 public/playlist.m3u || true
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/deploy-pages@v4
