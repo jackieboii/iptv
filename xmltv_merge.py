@@ -2,6 +2,7 @@
 # Merge multiple XMLTV (.xml/.xml.gz; local paths or HTTP URLs) into ONE file.
 # Usage examples:
 #   python xmltv_merge.py epg1.xml epg2.xml -o merged.xml.gz
+#     https://jackieboii.github.io/iptv/merged.xml.gz
 #   python xmltv_merge.py https://example.com/epg1.xml.gz https://example.com/epg2.xml -o merged.xml
 import io, gzip, argparse, urllib.request
 import xml.etree.ElementTree as ET
