@@ -35,10 +35,11 @@ jobs:
         run: |
           echo "EPG1=https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz" >> $GITHUB_ENV
           echo "EPG2=https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"  >> $GITHUB_ENV
+          echo "EPG3=https://m3u4u.com/"  >> $GITHUB_ENV
 
       - name: Quick HEAD checks (see HTTP status)
         run: |
-          for u in "$EPG1" "$EPG2"; do
+          for u in "$EPG1" "$EPG2" "$EPG3"; do
             echo "Testing $u"
             curl -I -L --max-time 30 "$u" || true
           done
@@ -47,7 +48,7 @@ jobs:
       - name: Merge EPG feeds
         run: |
           mkdir -p public
-          python xmltv_merge.py "$EPG1" "$EPG2" -o public/merged.xml.gz
+          python xmltv_merge.py "$EPG1" "$EPG2" "$EPG3" -o public/merged.xml.gz
 
       - uses: actions/upload-pages-artifact@v3
         with:
