@@ -1,12 +1,10 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="BBC.One.EastHD.uk" tvg-name="BBC One CI HD" group-title="News",BBC One
-https://november.queazified.co.uk/ee971134-115e-4418-8d1d-69dff7d4c6eb.m3u8
-#EXTINF:-1 tvg-id="BBC.Two.HD.uk" tvg-name="BBC Two HD" group-title="News",BBC Two
-https://live20.bozztv.com/dvrfl06/astv/astv-bbctwo/index.m3u8
-#EXTINF:-1 tvg-id="BBC.Two.HD.uk" tvg-name="BBC Two HD" group-title="News",BBC Two HD
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_east_midlands/pc_hd_abr_v2.mpd
+#EXTINF:-1 tvg-id="BBC.Two.HD.uk" tvg-name="BBC Two" group-title="News",BBC Two
 https://streamer.nexyl.uk/69ef899e-8ca9-4537-9f1a-fe8b4216afbb.m3u8
 #EXTINF:-1 tvg-id="ITV1.HD.uk" tvg-name="ITV" group-title="Entertainment",ITV
-https://cdn10.live-tv.cloud/itvrv/abr-lq/playlist.m3u8
+http://86.180.115.121:1990/stream/channelid/743478963?profile=pass
 #EXTINF:-1 tvg-id="Channel.4.HD.uk" tvg-name="Channel 4 UK HD" group-title="Entertainment",Channel 4 UK HD
 https://viamotionhsi.netplus.ch/live/eds/channel4/browser-HLS8/channel4.m3u8
 #EXTINF:-1 tvg-id="Channel.5.HD.uk" tvg-name="Channel 5 HD" group-title="Entertainment",Channel 5 HD
@@ -20,8 +18,6 @@ http://92.114.85.72:8000/play/aOb3
 #EXTINF:-1 tvg-id="ComedyCentral.uk" tvg-name="Comedy Central" group-title="Entertainment",Comedy Central
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64f8a408bd341e000818fcda/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c79b861-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=bc03faa5-401f-4a68-9972-153b1f336cac
 #EXTINF:-1 tvg-id="BBC.Three.HD.uk" tvg-name="BBC Three HD" group-title="News",BBC Three
-https://x.canlitvapp.com/u-bbc3/index.m3u8
-#EXTINF:-1 tvg-id="BBC.Three.HD.uk" tvg-name="BBC Three HD" group-title="News",BBC Three HD
 https://streamer.nexyl.uk/39290a19-b8dd-43ea-b8dc-081c37790f24.m3u8
 #EXTINF:-1 tvg-id="BBC.Four.HD.uk" tvg-name="BBC Four HD" group-title="News",BBC Four
 https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_four_hd/pc_hd_abr_v2.m3u8
