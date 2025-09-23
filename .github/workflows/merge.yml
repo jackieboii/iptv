@@ -1,8 +1,8 @@
 name: Build merged EPG
 on:
+  workflow_dispatch: {}
   schedule:
-    - cron: "0 */12 * * *"     # every 12 hours (UTC) — change as you like
-  workflow_dispatch: {}         # lets you run it manually
+    - cron: "0 */12 * * *"   # every 12h (UTC)
 
 permissions:
   contents: read
@@ -23,22 +23,31 @@ jobs:
         with:
           python-version: "3.11"
 
+      # 👇 show where we are and what files exist
+      - name: Show repo files
+        run: |
+          pwd
+          ls -la
+          python --version
+
+      # 👇 sanity-check your EPG URLs (REPLACE THESE TWO WITH YOUR REAL LINKS)
+      - name: Define EPG urls
+        run: |
+          echo "EPG1=https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz" >> $GITHUB_ENV
+          echo "EPG2=https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"  >> $GITHUB_ENV
+
+      - name: Quick HEAD checks (see HTTP status)
+        run: |
+          for u in "$EPG1" "$EPG2"; do
+            echo "Testing $u"
+            curl -I -L --max-time 30 "$u" || true
+          done
+
+      # 👇 merge them (two inputs only; add more if you later have them)
       - name: Merge EPG feeds
-        env:
-          # 🔧 Put YOUR EPG URLs here (add more if needed)
-          EPG1: https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz
-          EPG2: https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz
-          
         run: |
           mkdir -p public
-          # Merge as many inputs as you like (list your preferred source first)
-          python xmltv_merge.py "$EPG1" "$EPG2" "$EPG3" -o public/merged.xml.gz
-
-      # (optional) also publish your playlist under the same Pages URL:
-      - name: Copy playlist to public
-        run: |
-          # adjust the source path/filename if yours is different
-          cp iptv1 public/playlist.m3u || true
+          python xmltv_merge.py "$EPG1" "$EPG2" -o public/merged.xml.gz
 
       - uses: actions/upload-pages-artifact@v3
         with:
