@@ -1,0 +1,61 @@
+name: Build merged EPG
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "0 */12 * * *"   # every 12h (UTC)
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # 👇 show where we are and what files exist
+      - name: Show repo files
+        run: |
+          pwd
+          ls -la
+          python --version
+
+      # 👇 sanity-check your EPG URLs (REPLACE THESE TWO WITH YOUR REAL LINKS)
+      - name: Define EPG urls
+        run: |
+          echo "EPG1=https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz" >> $GITHUB_ENV
+          echo "EPG2=https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"  >> $GITHUB_ENV
+          echo "EPG3=https://m3u4u.com/"  >> $GITHUB_ENV
+
+      - name: Quick HEAD checks (see HTTP status)
+        run: |
+          for u in "$EPG1" "$EPG2" "$EPG3"; do
+            echo "Testing $u"
+            curl -I -L --max-time 30 "$u" || true
+          done
+
+      # 👇 merge them (two inputs only; add more if you later have them)
+      - name: Merge EPG feeds
+        run: |
+          mkdir -p public
+          python xmltv_merge.py "$EPG1" "$EPG2" "$EPG3" -o public/merged.xml.gz
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/deploy-pages@v4
